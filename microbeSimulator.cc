@@ -16,27 +16,21 @@
  *
  * Author: Wolfgang Bangerth, Texas A&M University, 2013
  */
-#include "common/chemicals/field.h"
+#include "src/chemicals/field.h"
 
-// #include "common/simulator/simulator.h"
-// #include "common/simulator/simulator_BDF2.h"
-#include "common/simulator/FDM_simulator.h"
-// #include "common/simulator/microbe_BDF2.h"
-// #include "common/simulator/bootstrapBDF2.h"
-// #include "common/simulator/dgsimulator.h"
-// #include "common/simulator/latest_simulator.h"
-// #include "common/simulator/stokes_solver.h"
+#include "src/simulator/FDM_simulator.h"
 
-#include "common/simulator/custom_stokes.h"
 
-#include "common/modular_simulator/modular_simulator.h"
+#include "src/simulator/custom_stokes.h"
 
-#include "common/utility/argparser.h"
+#include "src/modular_simulator/modular_simulator.h"
 
-#include "common/discrete_field/numerical_velocity.h"
-#include "common/discrete_field/FDM_chemical.h"
+#include "src/utility/argparser.h"
 
-#include "common/modular_simulator/super_simulator.h"
+#include "src/discrete_field/numerical_velocity.h"
+#include "src/discrete_field/FDM_chemical.h"
+
+#include "src/modular_simulator/super_simulator.h"
 
 #include <list>
 #include <fstream>
